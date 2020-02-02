@@ -1,0 +1,73 @@
+html,
+body {
+	height: 100%;
+	margin: 0 auto;
+	font-size: 18px;
+	font-family: sans-serif;
+	line-height: 1.8em;
+	color: #666;
+}
+/* flex for the intro text on the first parallax img */
+
+.into-text {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	flex-direction: column-reverse;
+	margin-bottom: 20%;
+}
+
+.web-dev {
+	margin-left: 2%;
+	font-size: 60px;
+}
+
+.john-sass {
+	display: flex;
+	flex-direction: column;
+	margin-top: 15%;
+	font-size: 48px;
+}
+
+.img1,
+.img2,
+.img3 {
+	display: flex;
+	/* position: relative; */
+	opacity: 0.95;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/* parallax images */
+
+.img1 {
+	background-image: url(/assets/images/full-moon-during-night-time-53153-min.jpg);
+	min-height: 100%;
+	min-width: 100%;
+}
+.img2 {
+	background-image: url(/assets/images/blue-and-white-planet-display-87009.jpg);
+	min-height: 85%;
+}
+.img3 {
+	background-image: url(/assets/images/lunar-eclipse-1114900-min.jpg);
+	min-height: 70%;
+}
+
+/* portfolio images */
+
+.row {
+	flex-direction: column;
+	align-items: center;
+	align-content: space-around;
+	justify-content: center;
+}
+
+.portfolio-img {
+	height: 250px;
+	width: 250px;
+	opacity: 0.75;
+}

@@ -8,31 +8,32 @@ body {
 	color: #666;
 }
 /* flex for the intro text on the first parallax img */
-
-.into-text {
+.img1 {
 	display: flex;
-	justify-content: start;
-	align-items: center;
-	flex-direction: column-reverse;
-	margin-bottom: 20%;
+}
+
+.img1-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	transition: 5s;
 }
 
 .web-dev {
-	margin-left: 2%;
+	display: flex;
 	font-size: 60px;
 }
 
 .john-sass {
 	display: flex;
-	flex-direction: column;
-	margin-top: 15%;
 	font-size: 48px;
+	margin-top: 80px;
+	margin-left: 38.5%;
 }
 
 .img1,
 .img2,
 .img3 {
-	display: flex;
 	/* position: relative; */
 	opacity: 0.95;
 	background-position: center;
@@ -59,15 +60,14 @@ body {
 
 /* portfolio images */
 
-.row {
-	flex-direction: column;
-	align-items: center;
-	align-content: space-around;
-	justify-content: center;
+.project-container {
+	display: flex;
+	justify-content: space-around;
 }
 
 .portfolio-img {
 	height: 250px;
 	width: 250px;
 	opacity: 0.75;
+	display: flex;
 }
